@@ -116,7 +116,7 @@ def login(secret, account):
 #         print(mysoup.find('a', attrs={'href': href, 'class': 'zg-link-gray-normal'}).text + '\n')
 # 获取所有关注的人的信息
 def getallview():
-    nums = 26  # 这个是我关注的人数
+    nums = 27  # 这个是我关注的人数
     followees_headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36',
         'Referer': 'https://www.zhihu.com/people/GitSmile/followees',
